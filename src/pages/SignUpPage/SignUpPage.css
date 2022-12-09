@@ -1,0 +1,40 @@
+.form-container{
+    display: inline-block;
+    text-align: left;
+    border: solid black 2px;
+    border-radius: 12px;
+    background-color: #dbd2cc;
+    padding-top:1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    font-size: 17px;
+    /*margin-left: 2px;*/
+    font-weight: bolder;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 100px;
+    position: relative;
+}
+
+.button-container{
+    text-indent: 20px;
+    margin-left: 100px;
+
+
+}
+
+button:hover{
+    background-color: #d6d6d6;
+}
+
+.error{
+    font-weight: bold;
+}

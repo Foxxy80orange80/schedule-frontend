@@ -1,0 +1,75 @@
+.page-container{
+    text-align: center;
+    /*margin-top: 50px;*/
+}
+
+/*.hat-left{*/
+/*    font-family: monospace;*/
+/*    font-style: oblique;*/
+/*    font-size: 50px;*/
+/*    border: 4px;*/
+/*    border-style:solid none solid solid;*/
+/*    background: #dbd2cc ;*/
+/*    padding: 1px;*/
+/*    float: left;*/
+/*    box-sizing: border-box;*/
+/*    flex: 1 0 235px;*/
+/*}*/
+
+/*.hat-container{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    list-style: none;*/
+/*    padding: 1px;*/
+/*}*/
+
+/*.hat-right{*/
+/*    box-sizing: border-box;*/
+/*    flex: 1 0 235px;*/
+/*    font-size: 20px;*/
+/*    float:right;*/
+/*    border:4px;*/
+/*    text-align: right;*/
+/*    border-style: solid solid solid none;*/
+/*    background: #dbd2cc ;*/
+/*}*/
+
+.form-container{
+    display: inline-block;
+    text-align: left;
+    border: solid black 2px;
+    border-radius: 12px;
+    background-color: #dbd2cc;
+    padding-top:1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    font-size: 17px;
+    /*margin-left: 2px;*/
+    font-weight: bolder;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 55px;
+    position: relative;
+}
+
+.button-container{
+    text-indent: 20px;
+
+
+}
+
+button:hover{
+    background-color: #d6d6d6;
+}
+
+.error{
+    font-weight: bold;
+}
